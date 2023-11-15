@@ -19,7 +19,7 @@ namespace MVC.Controllers
         }
 
         // GET: UsuarioController/Details/5
-        
+        [HttpGet]
         public ActionResult Details(int id)
         {
             return View();
